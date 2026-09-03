@@ -1,0 +1,14 @@
+:host {
+  display: grid;
+  justify-content: center;
+  width: clamp(100%, 50vw, 768px);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+textarea {
+  padding: 0.5rem
+}
